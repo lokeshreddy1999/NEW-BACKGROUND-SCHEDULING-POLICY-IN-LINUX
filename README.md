@@ -4,4 +4,4 @@ When there are no processes which are managed by the SCHED_OTHER, SCHED_RR or SC
  When there is more than one SCHED_BACKGROUND process ready to run, they should compete for the CPU as do SCHED_OTHER processes using CFS i.e., ‘Complete Fair Scheduling’.
  We will implement a new policy SCHED_BACKGROUND to handle background tasks with lower priority than SCHED_IDLE. This will handle tasks only if queues of all other policies are empty.
 
-Steps to the for the given projects are clearly given in report please check that out
+Steps to the for the this projects are clearly given in report pdf. please check that out
